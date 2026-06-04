@@ -56,6 +56,10 @@ uv run python run_misotts.py
 
 The script writes `full_conversation.wav` in the repository root.
 
+### Google Colab
+
+Open [`notebooks/MisoTTS_Colab.ipynb`](notebooks/MisoTTS_Colab.ipynb) in Colab (or upload it), set the runtime to **GPU** (prefer **L4** or **A100**), and run all cells. The notebook clones this repo, installs dependencies, downloads weights from Hugging Face, and generates sample audio.
+
 With `pip` instead of `uv`:
 
 ```bash
